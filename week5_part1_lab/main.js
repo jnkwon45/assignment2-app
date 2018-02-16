@@ -1,5 +1,4 @@
-<!-- javascript -->
-<script src="main.js" type="text/javascript">
+
 
     function addNewList() {
         alert('hello world alert!');
@@ -11,7 +10,7 @@
         var list = document.getElementById("grocery-list");
         var itemInput = document.getElementById("new-list-item");
         var newItem = document.createElement("li");
-        newItem that takes in the text value that users will input into itemInput:
+        // newItem that takes in the text value that users will input into itemInput:
         newItem.appendChild(document.createTextNode(itemInput.value));
         list.appendChild(newItem);
     }
@@ -32,4 +31,3 @@
     }
 
 
-</script>
